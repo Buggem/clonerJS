@@ -7,7 +7,7 @@ window.clonerJS = {
       clone[key] = values[keys.indexOf(key)];
     }
     return clone;
-  }
+  },
   "clone": function(thing) {
     return this.cloneObj({ a: thing }).a;
   }
