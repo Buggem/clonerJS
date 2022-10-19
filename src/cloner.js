@@ -8,5 +8,8 @@ window.clonerJS = {
     }
     return clone;
   }
+  "clone": function(thing) {
+    return this.cloneObj({ a: thing }).a;
+  }
 
 };
